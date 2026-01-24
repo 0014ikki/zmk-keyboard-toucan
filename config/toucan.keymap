@@ -60,7 +60,7 @@
         mous {
             display-name = "MOUS";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RG(LEFT_BRACKET)  &mo 3  &kp RG(RIGHT_BRACKET)  &mkp LCLK  &mkp RCLK  &kp LS(LC(LG(NUMBER_4)))
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp UP  &kp LEFT  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RG(LEFT_BRACKET)  &mo 3  &kp RG(RIGHT_BRACKET)  &mkp LCLK  &mkp RCLK  &kp LS(LC(LG(NUMBER_4)))
             >;
         };
 
