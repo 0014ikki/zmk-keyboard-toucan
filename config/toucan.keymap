@@ -41,7 +41,7 @@
 
         right_click {
             bindings = <&mkp RCLK>;
-            key-positions = <15>;
+            key-positions = <15 16>;
         };
     };
 
