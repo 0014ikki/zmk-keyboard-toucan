@@ -75,6 +75,7 @@
 &glidepoint_split {
     device = <&glidepoint>;
 
-    // Optional
-    // input-processors = <&zip_xy_transform (INPUT_TRANSFORM_XY_SWAP | INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>;
+    // レイヤー3でのみスクロール有効、縦方向スクロール反転
+    input-processors = <&scaler 1 (-1)>;  // Y軸を反転
+    scroll-layers = <3>;  // レイヤー3でのみスクロール
 };
