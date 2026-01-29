@@ -1,6 +1,6 @@
 build:
-  cmake: zephyr
-  kconfig: zephyr/Kconfig
+#  cmake: zephyr
+#  kconfig: zephyr/Kconfig
   settings:
     board_root: .
-    dts_root: .
+#    dts_root: .
