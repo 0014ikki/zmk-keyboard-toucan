@@ -117,13 +117,14 @@
                 &zip_scroll_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)  // Y軸も反転
             >;
         };
+    };
 
-    &zip_temp_layer {
-            excluded-positions = <
-                14 // S
-                15 // D
-                16 // F
-            >;
-        };
+    zip_temp_layer {
+        excluded-positions = <
+            14 // S
+            15 // D
+            16 // F
+        >;
+    };
     };
 };
